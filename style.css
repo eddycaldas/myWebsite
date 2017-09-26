@@ -1,0 +1,21 @@
+
+.row {
+  width: 700px;
+}
+#holder {
+  display: flex;
+  flex-flow: row wrap;
+}
+p {
+  font-size: 70%;
+}
+nav ul li a{
+  color: black;
+}
+nav a {
+  color: black;
+}
+.header-container {
+    height: 160px;
+    line-height: 150px;
+}
