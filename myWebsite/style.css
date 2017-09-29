@@ -5,6 +5,9 @@
   background: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
 }
+body {
+  font-family: 'Elsie', cursive;
+}
 p {
   font-size: 80%;
 }
@@ -95,17 +98,17 @@ p {
   height: 500px;
 }
 .big {
-  background-image: url("image/opacity.png");
+  /*background-image: url("image/aboutMe.png");*/
   font-size: 185%;
-  padding: 45px;
+  padding: 3px;
   position: absolute;
   top: 29%;
   left: 9%;
   width: 40%;
   height: 392px;
    border:1px solid #021a40;
-
 }
+
 .little {
   position: absolute;
   top: 55%;
@@ -119,13 +122,16 @@ p {
   width: 100%;
   height: 200px;
 }
+#aboutMe {
+  width: 100%;
+  height: 392px;
+}
 .aboutMe {  
-  /*background-image: url("image/opacity.png");*/
-  /*font-size: 185%;*/
   width: 100%
   height: 392px;
 }
 button {
+  font-family: 'Elsie', cursive;
   background-color: #4CAF50; 
   background: #999999;
      border: none;
@@ -138,3 +144,4 @@ button {
   .myProjectsLink {
     text-decoration: none;
   }
+  
